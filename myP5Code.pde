@@ -14,6 +14,8 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   
   noStroke();
+  
+  
   fill(30, 204, 91); // a nice froggy green!
 
   ellipse(x, y, 200, 100); // face
@@ -22,9 +24,18 @@ void draw(){
 
   fill(255, 255, 255); // for the whites of the eyes!
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
-  ellipse(x + 50, y - 50, 30, 30); // right eyeball
+  ellipse(x + 50, y - 50, 30, 30); // right eyeball 
   
-
+ 
+  
+ fill(10, 36, 17);
+  ellipse(x - 0, y - 10, 30, 30);
+  
+   ellipse(x + 50, y - 50, 10, 30);
+     ellipse(x - 50, y - 50, 10, 30); 
+  
+ x=mouseX
+ 
 }
 
 
